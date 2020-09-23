@@ -14,7 +14,7 @@ import os
 from os import path
 from pathlib import Path
 
-if path.exists('env.py')
+if path.exists('env.py'):
     import env
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
